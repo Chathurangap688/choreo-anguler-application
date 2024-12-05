@@ -15,8 +15,8 @@ export class AppComponent implements OnInit{
   results: any;
   constructor(private http: HttpClient) {}
   ngOnInit(): void {
-    this.getApiResponse('fbe085ad-7ee7-4aa8-9f05-ae42652f8a26');
-    this.results = undefined;
+    //this.getApiResponse('fbe085ad-7ee7-4aa8-9f05-ae42652f8a26');
+    //this.results = undefined;
   }
   getApiResponse(userId: string) {
 
